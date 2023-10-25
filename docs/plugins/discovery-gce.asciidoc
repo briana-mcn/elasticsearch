@@ -361,8 +361,8 @@ cloud:
     zone: europe-west1-a
 discovery:
   seed_providers: gce
-    gce:
-      tags: elasticsearch, dev
+  gce:
+    tags: elasticsearch, dev
 --------------------------------------------------
 
 [[discovery-gce-usage-port]]
